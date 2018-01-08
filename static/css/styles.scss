@@ -1,7 +1,27 @@
 ---
-
 ---
+
+@import "components/header";
+@import "components/footer";
+
 
 *, *:before, *:after {
   //outline: 1px solid pink;
+}
+
+@media (min-width: 1200px){
+	.container {
+		width: 970px;
+	}
+}
+
+.visually-hidden {
+	clip: rect(0, 0, 0, 0);
+	display: none;
+	height: 1px;
+	margin-left: -1px;
+	margin-top: -1px;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
 }
