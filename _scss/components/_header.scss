@@ -1,17 +1,19 @@
-.sb-masthead {
+.sb-header {
+  @media (min-width: 768px) {
+    padding: 18px 0;
+    border-bottom: 0 none transparent;
+  }
   background-color: #ffffff;
-  padding: 18px 0;
+  padding: 12px 0;
+  position: relative;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .sb-branding {
   @media (min-width: 768px) {
-    text-align: left;
-  }
-  text-align: center;
-  display: block;
-  img {
     max-height: 90px;
   }
+  max-height: 38px;
 }
 
 .sb-info {
@@ -31,13 +33,16 @@
 .sb-navigation--navicon {
   border-radius: 4px;
   border: 1px solid #2d3737;
-  font-size: 14px;
+  display: block;
   height: 36px;
+  font-size: 14px;
   line-height: 36px;
   margin: 0;
-  float: right;
   padding: 0 7px;
-  display: inline-block;
+  position: absolute;
+  right: 14px;
+  top: 12px;
+  z-index: 1;
 
   &:before {
     content: 'MENU';
@@ -143,6 +148,6 @@
   }
 }
 
-#navToggle:checked ~ .sb-navigation:nth-child(n) {
+#navToggle:checked ~ header .sb-navigation:nth-child(n) {
   right: 0;
 }

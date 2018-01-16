@@ -1,13 +1,14 @@
+<input type="checkbox" name="navToggle" id="navToggle" class="visually-hidden">
+<label for="navToggle" class="sb-navigation--navicon">&nbsp; <i class="navicon fa fa-bars fa-lg"></i></label>
+
 <header>
-  <div class="sb-masthead">
+  <div class="sb-header">
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
-          <span class="sb-branding">
-            <a href="/">
-              <img src="../static/images/silverbirch-logo.png" alt="Silverbirch Garden Centre" />
-            </a>
-          </span>
+          <a href="/">
+            <img class="sb-branding" src="../static/images/silverbirch-logo.png" alt="Silverbirch Garden Centre" />
+          </a>
         </div>
         <div class="col-sm-4">
           <ul class="sb-info pull-right fa-ul">
@@ -17,39 +18,37 @@
           </ul>
         </div>
       </div>
-    </div>
-  </div>
-  <input type="checkbox" name="navToggle" id="navToggle" class="visually-hidden">
-  <label for="navToggle" class="sb-navigation--navicon">&nbsp; <i class="navicon fa fa-bars fa-lg"></i></label>
-  <nav class="sb-navigation">
-    <div class="container">
+
       <div class="row">
         <div class="col-xs-12">
-          <ul class="sb-navigation--links">
-            <li class="{{ page.home }}">
-              <a href="/">Home</a>
-            </li>
-            <li class="{{ page.about }}">
-              <a href="/about/">About us</a>
-            </li>
-            <li class="{{ page.garden }}">
-              <a href="/garden/">Gardening</a>
-            </li>
-            <li class="{{ page.interiors }}">
-              <a href="/interiors/">Interiors</a>
-            </li>
-            <li class="{{ page.christmas }}">
-              <a href="/christmas/">Christmas</a>
-            </li>
-            <li class="{{ page.coffee }}">
-              <a href="/coffee-shop/">Coffee Shop</a>
-            </li>
-            <li class="{{ page.contact }}">
-              <a href="/contact/">Contact us</a>
-            </li>
-          </ul>
+          <nav class="sb-navigation">
+            <ul class="sb-navigation--links">
+              <li class="{{ page.home }}">
+                <a href="/">Home</a>
+              </li>
+              <li class="{{ page.about }}">
+                <a href="/about/">About us</a>
+              </li>
+              <li class="{{ page.garden }}">
+                <a href="/garden/">Gardening</a>
+              </li>
+              <li class="{{ page.interiors }}">
+                <a href="/interiors/">Interiors</a>
+              </li>
+              <li class="{{ page.christmas }}">
+                <a href="/christmas/">Christmas</a>
+              </li>
+              <li class="{{ page.coffee }}">
+                <a href="/coffee-shop/">Coffee Shop</a>
+              </li>
+              <li class="{{ page.contact }}">
+                <a href="/contact/">Contact us</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
+
     </div>
-  </nav>
+  </div>
 </header>
