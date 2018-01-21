@@ -1,40 +1,7 @@
 ---
 ---
 
-@import "components/header";
-@import "components/hero";
-@import "components/footer";
-
-
 *, *:before, *:after {
   //outline: 1px solid pink;
 	box-sizing: border-box;
-}
-
-body {
-	font-size: 16px;
-	line-height: 24px;
-  position: relative;
-}
-
-@media (min-width: 1200px){
-	.container {
-		width: 970px;
-	}
-}
-
-.visually-hidden {
-	clip: rect(0, 0, 0, 0);
-	display: none;
-	height: 1px;
-	margin-left: -1px;
-	margin-top: -1px;
-	overflow: hidden;
-	position: absolute;
-	width: 1px;
-}
-
-.sb-line_break {
-	border-color: #e5e5e5;
-	border-top-width: 2px;
 }
