@@ -1,0 +1,139 @@
+
+/* LARGE DESKTOP VIEWPORT STYLES ******************************/
+@media (min-width: 1200px) {
+}
+
+/* DESKTOP VIEWPORT STYLES ******************************/
+@media (min-width: 768px) {
+}
+
+/* MOBILE VIEWPORT STYLES ******************************/
+@media (max-width: 767px) {
+
+#masthead {
+	margin-top: 60px;
+}
+
+ul.morenav {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.copyright {
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+ul.social {
+	margin: 0 auto;
+	text-align: center;
+	width:100%;
+}
+
+.flex-direction-nav {
+	display: none;
+}
+
+ul.morenav li {
+	float: none;	
+}
+
+/*ul.social li {
+	float: none;	
+}*/
+
+/* New MobNav ******************************/
+#navigation {
+	background: #666;
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: #FFFFFF;
+}
+
+#navigation ul li a {
+	display: block;
+	font-weight: 300;
+	color: #FFFFFF;
+	background: #666;
+}
+
+#navigation ul li a:hover {
+	background: #258ecd;
+	text-decoration: none;
+}
+
+#navigation ul li a:active {
+	background: #afdefa;
+	color: #47a3da;
+}
+
+#navigation ul li a.current {
+	background: #258ecd;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+ 
+#navigation {
+	width: 80%;
+	position: fixed;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	z-index: 1000;
+	right: -80%;
+	border: none;
+	border-radius: 0;
+}
+
+#navigation li {
+	width: 100%;
+	list-style-type: none;
+	border: none;
+	border-bottom: 1px solid;
+	display: inline;
+	float: left;
+	color:#FFFFFF;
+}
+
+#navigation li a {
+	padding: 1em;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+#navigation.menu_right_open {
+	right: 0;
+}
+ 
+.push_to_left {
+	left: -80% !important;
+}
+
+.cbp-spmenu-push {
+	left: 0%;
+}
+
+ 
+#navigation, #floating_nav, .cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+}
+
+/* MOBILE VIEWPORT STYLES ******************************/
+@media (max-width: 480px) {
+
+#col1 {
+	width: 100%;
+}
+
+#col2 {
+	width: 100%;
+}
+.flex-control-nav {
+	display:none;	
+}
+}
