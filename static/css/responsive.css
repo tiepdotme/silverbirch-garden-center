@@ -36,11 +36,11 @@ ul.social {
 }
 
 ul.morenav li {
-	float: none;	
+	float: none;
 }
 
 /*ul.social li {
-	float: none;	
+	float: none;
 }*/
 
 /* New MobNav ******************************/
@@ -74,7 +74,7 @@ ul.morenav li {
 }
 
 /* Orientation-dependent styles for the content of the menu */
- 
+
 #navigation {
 	width: 80%;
 	position: fixed;
@@ -106,7 +106,7 @@ ul.morenav li {
 #navigation.menu_right_open {
 	right: 0;
 }
- 
+
 .push_to_left {
 	left: -80% !important;
 }
@@ -115,7 +115,7 @@ ul.morenav li {
 	left: 0%;
 }
 
- 
+
 #navigation, #floating_nav, .cbp-spmenu-push {
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -134,6 +134,6 @@ ul.morenav li {
 	width: 100%;
 }
 .flex-control-nav {
-	display:none;	
+	display:none;
 }
 }

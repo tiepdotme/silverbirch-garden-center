@@ -37,7 +37,7 @@ $(function () {
 $(function () {
     var images = ['banner1.jpg', 'banner2.jpg', 'banner3.jpg', 'banner4.jpg', 'banner9.jpg'];
     $('#headerContainer').css({
-        'background-image': 'url(../images/banners/' + images[Math.floor(Math.random() * images.length)] + ')'
+        'background-image': 'url({{ siteurl }}/static/images/banners/' + images[Math.floor(Math.random() * images.length)] + ')'
     });
 });
 
