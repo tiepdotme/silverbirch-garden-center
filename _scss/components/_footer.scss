@@ -1,0 +1,41 @@
+*, *:before, *:after {
+  //outline: 1px solid blue;
+}
+
+footer {
+  margin-bottom: 24px;
+}
+
+.sb-footer__linebreak {
+  border-top: 2px solid #e5e5e5;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.sb-footer__nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0;
+
+  li {
+    display: inline-block;
+    margin: 0 7px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    font-size: 16px;
+  }
+}
+
+.sb-copyright {
+  text-align: right;
+}
