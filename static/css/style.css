@@ -3,8 +3,8 @@
 /* BASE STYLES -----------------------------------------------------------*/
 body {
 	position:relative;
-	color: #333333;
-	background: #F7F7F7 !important;
+	color: #333;
+	background: #fff !important;
 	font-size: 16px !important;
 	line-height: 24px !important;
 	-webkit-font-smoothing: antialiased;
@@ -31,28 +31,6 @@ img {
 	vertical-align: middle;
 }
 
-#masthead {
-	width: 100%;
-	margin: 24px 0;
-}
-
-#contactDetails {
-	color: #666;
-	text-align: right;
-}
-
-#logo img {
-	max-height: 100px;
-}
-
-#page {
-	position: relative;
-	background-color: #FFFFFF;
-	padding: 20px;
-	-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.3);
-	-moz-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.3);
-	box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.3);
-}
 
 .centerpic {
 	text-align: center;
