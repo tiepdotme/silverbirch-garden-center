@@ -28,6 +28,9 @@
     {% if page.scripts %}
     <script src="{{ siteurl }}/static/scripts/bootstrap.min.js"></script>
     {% endif %}
+    {% if page.reward %}
+    <script src="{{ siteurl }}/static/scripts/validate-reward.js"></script>
+    {% endif %}
 
     <script>
     var _gaq = _gaq || [];
