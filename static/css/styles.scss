@@ -38,6 +38,14 @@ img {
   }
 }
 
+a {
+	color: #0366d6;
+
+	&:hover {
+		color: #0366d6;
+	}
+}
+
 /* TYPOGRAPHY ______________________________*/
 
 h1, .h1 {
@@ -58,6 +66,10 @@ h3, .h3 {
 h4, .h4 {
 	font-size: 18px;
 	line-height: 24px;
+}
+
+p, .p {
+	margin: 18px 0;
 }
 
 /* UTILS ______________________________*/
@@ -108,6 +120,26 @@ h4, .h4 {
 
 .sb-mt--none {
 	margin-top: 0;
+}
+
+.sb-mt--6 {
+	margin-top: 6px;
+}
+
+.sb-mt--12 {
+	margin-top: 12px;
+}
+
+.sb-mt--18 {
+	margin-top: 18px;
+}
+
+.sb-mt--24 {
+	margin-top: 24px;
+}
+
+.sb-mt--30 {
+	margin-top: 30px;
 }
 
 /* OVERIDES ______________________________*/

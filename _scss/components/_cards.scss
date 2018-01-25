@@ -1,14 +1,14 @@
 .sb-card {
   background-color: #fff;
-
+  border: 1px solid #e5e5e5;
+  
   &__image {
 
   }
 
   &__content {
     padding: 18px 21px;
-    color: #000;
-    border: 1px solid #e5e5e5;
+    color: #333;
   }
 
   &__link {
