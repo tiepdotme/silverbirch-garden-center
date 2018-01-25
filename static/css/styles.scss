@@ -2,6 +2,8 @@
 ---
 
 @import "components/header";
+@import "components/hero";
+@import "components/cards";
 @import "components/footer";
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
@@ -27,10 +29,89 @@ img {
 	max-width: 100%;
 	vertical-align: middle;
 	width: auto\9;
+	width: 100%;
 }
 
 .container {
   @media (min-width: 1200px) {
     width: 970px;
   }
+}
+
+/* TYPOGRAPHY ______________________________*/
+
+h1, .h1 {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+h2, .h2 {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+h3, .h3 {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+h4, .h4 {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+/* UTILS ______________________________*/
+
+.sb-text--left {
+	text-align: left;
+}
+
+.sb-text--right {
+	text-align: right;
+}
+
+.sb-text--center {
+	text-align: center;
+}
+
+.sb-text--sans-serif {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sb-text--serif {
+	font-family: 'Playfair Display', serif;
+}
+
+.sb-mb--none {
+	margin-bottom: 0;
+}
+
+.sb-mb--6 {
+	margin-bottom: 6px;
+}
+
+.sb-mb--12 {
+	margin-bottom: 12px;
+}
+
+.sb-mb--18 {
+	margin-bottom: 18px;
+}
+
+.sb-mb--24 {
+	margin-bottom: 24px;
+}
+
+.sb-mb--30 {
+	margin-bottom: 30px;
+}
+
+.sb-mt--none {
+	margin-top: 0;
+}
+
+/* OVERIDES ______________________________*/
+
+.cdsROW.narrow {
+	width: 100% !important;
 }
