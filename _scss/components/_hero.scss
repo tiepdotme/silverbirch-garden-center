@@ -9,27 +9,51 @@
   position: relative;
 
   &--about {
-    // background-image: url('/static/images/sb-hero.jpg');
+    background-image: url('/static/images/banners/11.jpg');
   }
 
   &--garden {
-
+    background-image: url('/static/images/banners/8.jpg');
   }
 
   &--interiors {
-
+    background-image: url('/static/images/banners/5.jpg');
   }
 
   &--christmas {
-
+    background-image: url('/static/images/banners/10.jpg');
   }
 
   &--coffee {
-
+    background-image: url('/static/images/banners/6.jpg');
   }
 
   &--contact {
+    background-image: url('/static/images/banners/3.jpg');
+  }
 
+  &--offers {
+    background-image: url('/static/images/banners/11.jpg');
+  }
+
+  &--privacy {
+    background-image: url('/static/images/banners/2.jpg');
+  }
+
+  &--returns {
+    background-image: url('/static/images/banners/9.jpg');
+  }
+
+  &--reward {
+    background-image: url('/static/images/banners/1.jpg');
+  }
+
+  &--jobs {
+    background-image: url('/static/images/banners/7.jpg');
+  }
+
+  &--garden-furniture {
+    background-image: url('/static/images/banners/8.jpg');
   }
 
   &__heading {
