@@ -1,0 +1,83 @@
+.sb-hero {
+  background-color: #e5e5e5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  padding: 24px 21px;
+  width: 100%;
+  position: relative;
+
+  &--about {
+    background-image: url('/static/images/banners/11.jpg');
+  }
+
+  &--garden {
+    background-image: url('/static/images/banners/8.jpg');
+  }
+
+  &--interiors {
+    background-image: url('/static/images/banners/5.jpg');
+  }
+
+  &--christmas {
+    background-image: url('/static/images/banners/10.jpg');
+  }
+
+  &--coffee {
+    background-image: url('/static/images/banners/6.jpg');
+  }
+
+  &--contact {
+    background-image: url('/static/images/banners/3.jpg');
+  }
+
+  &--offers {
+    background-image: url('/static/images/banners/11.jpg');
+  }
+
+  &--privacy {
+    background-image: url('/static/images/banners/2.jpg');
+  }
+
+  &--returns {
+    background-image: url('/static/images/banners/9.jpg');
+  }
+
+  &--reward {
+    background-image: url('/static/images/banners/1.jpg');
+  }
+
+  &--jobs {
+    background-image: url('/static/images/banners/7.jpg');
+  }
+
+  &--garden-furniture {
+    background-image: url('/static/images/banners/8.jpg');
+  }
+
+  &__heading {
+    bottom: 24px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    left: 21px;
+    line-height: 48px;
+    margin: 0;
+    position: absolute;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  }
+
+  &--overlay {
+    &:before {
+      background-color: rgba(0, 0, 0, 0.2);
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      width: 100%;
+    }
+  }
+}

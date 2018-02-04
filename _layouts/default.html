@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Silverbirch Garden Centre is a family owned business situated in Scotland’s picturesque Clyde Valley offering high quality plants and homeware at excellent prices.">
+
+    <link rel="shortcut icon" href="{{ siteurl }}/static/images/favicon.ico">
+
+    <link rel="stylesheet" href="{{ siteurl }}/static/css/styles.css">
+    <script src="//use.fontawesome.com/fdc8fc3530.js"></script>
+
+    <title>{{ page.title }}</title>
+
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="{{ siteurl }}/static/scripts/scripts.js"></script>
+    {% if page.scripts %}
+    <script src="{{ siteurl }}/static/scripts/bootstrap.min.js"></script>
+    {% endif %}
+
+    <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-43154424-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+  </body>
+</html>

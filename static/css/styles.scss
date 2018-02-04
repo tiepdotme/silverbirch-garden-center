@@ -1,0 +1,188 @@
+---
+---
+
+@import "vendor/bootstrap";
+
+@import "components/header";
+@import "components/hero";
+@import "components/cards";
+@import "components/footer";
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+*, *:before, *:after {
+  // outline: 1px solid blue;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	color: #333;
+	font-size: 16px;
+	line-height: 24px;
+	position: relative;
+	text-rendering: optimizelegibility;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	width: auto\9;
+	width: 100%;
+}
+
+.container {
+  @media (min-width: 1200px) {
+    width: 970px;
+  }
+}
+
+a {
+	color: #0366d6;
+
+	&:hover {
+		color: #0366d6;
+	}
+}
+
+.sb-hr--welcome {
+	display: block;
+  background: #e5e5e5;
+  border-top: none;
+  height: 3px;
+  margin: 0 auto;
+	margin-bottom: 30px;
+  width: 40px;
+}
+
+.sb-social__list {
+	display: block;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+	list-style-type: none;
+
+	&-item {
+		display: inline-block;
+
+
+	}
+
+	&-link {
+		display: block;
+		padding: 12px;
+		border: 1px solid #e5e5e5;
+		width: 56px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 30px;
+		background-color: #fff;
+		border-radius: 6px;
+		color: #333;
+	}
+}
+
+/* TYPOGRAPHY ______________________________*/
+
+h1, .h1 {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+h2, .h2 {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+h3, .h3 {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+h4, .h4 {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+p, .p {
+	margin: 18px 0;
+}
+
+/* UTILS ______________________________*/
+
+.sb-text--left {
+	text-align: left;
+}
+
+.sb-text--right {
+	text-align: right;
+}
+
+.sb-text--center {
+	text-align: center;
+}
+
+.sb-text--sans-serif {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sb-text--serif {
+	font-family: 'Playfair Display', serif;
+}
+
+.sb-mb--none {
+	margin-bottom: 0;
+}
+
+.sb-mb--6 {
+	margin-bottom: 6px;
+}
+
+.sb-mb--12 {
+	margin-bottom: 12px;
+}
+
+.sb-mb--18 {
+	margin-bottom: 18px;
+}
+
+.sb-mb--24 {
+	margin-bottom: 24px;
+}
+
+.sb-mb--30 {
+	margin-bottom: 30px;
+}
+
+.sb-mt--none {
+	margin-top: 0;
+}
+
+.sb-mt--6 {
+	margin-top: 6px;
+}
+
+.sb-mt--12 {
+	margin-top: 12px;
+}
+
+.sb-mt--18 {
+	margin-top: 18px;
+}
+
+.sb-mt--24 {
+	margin-top: 24px;
+}
+
+.sb-mt--30 {
+	margin-top: 30px;
+}
+
+/* OVERIDES ______________________________*/
+
+.cdsROW.narrow {
+	width: 100% !important;
+}

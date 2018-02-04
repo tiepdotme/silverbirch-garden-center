@@ -1,0 +1,36 @@
+.sb-card {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+
+  &__image {
+
+  }
+
+  &__content {
+    padding: 18px 21px;
+    color: #333;
+  }
+
+  &__link {
+    &:hover {
+      text-decoration: none;
+      .sb-card__content h3 {
+        color: #0366d6;
+      }
+    }
+  }
+
+  &--grey {
+    background-color: #f2f2f2;
+  }
+
+  &--no-border {
+    border: 0 none transparent;
+  }
+
+  &--no-padding {
+    .sb-card__content {
+      padding: 0;
+    }
+  }
+}
