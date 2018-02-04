@@ -55,10 +55,13 @@
   }
 
   &__link {
+    @media (min-width: 768px) {
+      padding: 18px 14px;
+    }
     color: #666;
     display: block;
     line-height: 24px;
-    padding: 18px 14px;
+    padding: 12px 14px;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -76,9 +79,11 @@
   &:checked {
     ~ .sb-nav {
       display: block;
+      margin-top: -12px;
+      margin-bottom: 18px;
     }
 
-    + .sb-navicon:before {
+    + .sb-navicon:after {
       content: 'Close';
     }
   }
@@ -89,7 +94,7 @@
     display: none;
   }
 
-  &:before {
+  &:after {
     content: 'Menu';
     display: inline-block;
   }
@@ -97,4 +102,5 @@
   border: 1px solid #000;
   display: block;
   padding: 12px 14px;
+  text-align: center;
 }
