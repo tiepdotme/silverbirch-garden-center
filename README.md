@@ -1,1 +1,1 @@
-# silverbirch-garden-center
+# Silverbirch Garden Center
